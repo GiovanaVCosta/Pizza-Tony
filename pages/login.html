@@ -2,40 +2,45 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="../img/logo preto.webp" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/botao.css">
+    <link rel="icon" href="../img/Icon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    <title>Pizzaria Do Tony</title>
+    <title>Login</title>
 </head>
 <body>
-    <header>
-        <img src="../img/logo.webp" alt="Logo Tony Pizzaria">
-    </header>
+    <header> <img src="../img/Logo.webp" alt="logo Pizza Tonny"></header>
     <main>
-        <div class="conteudo-container">
-            <h1>Acesse sua conta </h1>
+        <div class="conteudo-conteiner">
+            <h1>Acesse a sua conta</h1>
             <p>O que você está esperando para saborear as mais deliciosas pizzas e sobremesas da região?</p>
         </div>
-        <div class="cadastro">
-        <img src="../img/email.webp" alt="Seu e-mail aqui!">
-        <input type="email" placeholder="Seu e-mail aqui!" aria-placeholder="e-mail">
+        <div class="login-conteiner">
+           <div class="parte1">
+                <div>
+                    <img src="../img/Login/Email.webp" alt="Icone Email">
+                    <input class="placeholder" placeholder="Seu e-mail aqui" type="email">
+                </div>
+                <div>
+                    <img src="../img/Login/Lock.webp" alt="Icone Cadeado">
+                    <input class="placeholder" placeholder="Sua senha" type="password">
+                </div>
+           </div>
+           <div class="parte2">
+                <a href="./home.html"><button class="botao">ENTRAR</button></a>
+                <div><p class="forgotPassword">Esqueci a senha</p></div>
+           </div>
         </div>
-        <div class="cadastro">
-            <img src="../img/lock.webp" alt="Digite sua senha">
-            <input type="password" placeholder="Digite sua senha" aria-placeholder="senha">
-        </div>
-        <a href="./pages1/home.html" class="botao">ENTRAR</a>
-        <h3>Esqueci minha senha </h3>
+       
     </main>
     <footer>
-        <h3>Ainda não tem uma conta?</h3>
-        <h2>Criar uma nova conta</h2>
+        <p>Ainda não tem uma conta?</p>
+       <a href="./conta.html"><h2>Criar Conta</h2></a>
     </footer>
 </body>
 </html>
